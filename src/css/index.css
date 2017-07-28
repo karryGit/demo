@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/*浮动左*/
+.float-left{
+    float: left;
+}
+/*浮动右*/
+.float-right{
+    float: right;
+}
+/*清除浮动的类*/
+.contain::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*最大容器*/
+.container{
+    width: 100%;
+    min-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 90px;
+}
+/*居中容器*/
+.container_center{
+    line-height: 90px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*片刻logo*/
+.logo{
+    margin-top: 20px;
+}
+/*下拉菜单*/
+.nav_menu{
+    margin: -5px 85px;
+}
+/*下拉菜单的li标签*/
+.nav_menu li {
+    margin: 0 35px;
+    display: inline-block;
+    list-style: none;
+}
+/*下拉菜单的a标签*/
+.nav_menu li a{
+    color: black;
+}
+/*下拉菜单首页*/
+.shouye{
+    border-bottom: 3px solid black;
+    width: 80px;
+    height: 90px;
+    background-color: rgb(251,251,251);
+    text-align: center;
+}
+/*笔*/
+.pen{
+    background: url("../img/pen.png")no-repeat;
+    margin: 10px 148px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
